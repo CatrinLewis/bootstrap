@@ -4,33 +4,16 @@
   <head>
     <title> Vertical Menu </title>
     <meta name ="viewport" content ="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style-sheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-      .side-bar {
-        height: 100vh;
-      }
-      .bg-orange {
-        background-color: #db4e00;
-      }
-      .content {
-        padding-top: 5px;
-      }
-      .heading {
-        padding-top: 61px;
-      }
-
-
-    </style>
+    <script src="my_jquery_functions.js"></script>
   </head>
 
   <body>
     <nav class="navbar navbar-light sticky-top d-sm-none bg-orange">
-      <a class="navbar-brand" href="#">Catrin Lewis</a>
+      <a class="navbar-brand" href="#">CatrinLewis</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,7 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#Catrin Lewis">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#CatrinLewis">About <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Experience">Experience</a>
@@ -65,11 +48,11 @@
           <ul class ="nav navbar-nav text-center">
             <li class ="nav-item">
               <div>
-                <img src="file://C:/Users/catri/Pictures/converse.jpg" class="img-fluid rounded sticky-top" alt="Converse Trainers" style="margin-top:10px">
+                <img id="1" src="file://C:/Users/catri/Pictures/converse.jpg" class="img-fluid rounded sticky-top" alt="Converse Trainers" style="margin-top:10px">
               </div>
             </li>
             <li class ="nav-item">
-              <a class ="nav-link" href="#Catrin Lewis">About</a>
+              <a class ="nav-link" href="#CatrinLewis">About</a>
             </li>
             <li class ="nav-item">
               <a class ="nav-link" href="#Experience">Experience</a>
@@ -91,7 +74,7 @@
 
         <div class="col">
           <div class="container content">
-            <h2 id="Catrin Lewis">Catrin Lewis</h2>
+            <h2 id="CatrinLewis">Catrin Lewis</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
           </div>
           <div class="container">

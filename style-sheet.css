@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+.side-bar {
+  height: 100vh;
+}
+.bg-orange {
+  background-color: #db4e00;
+}
+.content {
+  padding-top: 5px;
+}
+.heading {
+  padding-top: 61px;
+}
+
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
